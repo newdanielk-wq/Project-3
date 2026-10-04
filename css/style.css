@@ -39,27 +39,29 @@ h1.hometext {
 }
 
 .navbar {
-  background-color: #6c0a8a;/*Dark purple*/
-  padding: 0.75rem 2rem;
+  background-color: #6c0a8a;
+  padding: 0.75rem 1rem;
 }
 
 .nav-list {
   display: flex;
+  flex-direction: column;
   list-style: none;
   margin: 0;
   padding: 0;
-  justify-content: center;
-  align-items: center;
-  gap: 1.5rem;
+  align-items: stretch;
+  gap: 0.5rem;
 }
 
 .nav-list a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   color: #ffffff;
   text-decoration: none;
   font-family: "Michroma", Helvetica, Arial, sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  text-align: center;
+  border-radius: 4px;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
 
