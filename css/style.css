@@ -1,0 +1,105 @@
+
+.michroma-regular {
+  font-family: "Michroma", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1.hometext {
+  font-family: "Michroma", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #6c0a8a;/*Dark purple*/
+  padding: 0.75rem 2rem;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-list a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Michroma", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-list a:hover,
+.nav-list a:focus-visible {
+  background-color: #3b4252;
+  color: #88c0d0;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #2e3440;
+  line-height: 1.6;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+h1, h2, h3 {
+  font-family: "Michroma", Helvetica, Arial, sans-serif;
+  color: #2b0338;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem 1rem 1rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  display: block;
+  margin: 1rem auto 2rem;
+}
+
+.content-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-left: 5px solid #6c0a8a;
+}
+
+.text-center {
+  text-align: center;
+}
+
+audio {
+  display: block;
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card ul, 
+.card ol {
+  padding-left: 1.5rem;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
