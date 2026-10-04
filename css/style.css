@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f7f9fb;
+  color: #2e3440;
+  line-height: 1.5;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
 h1.hometext {
   font-family: "Michroma", Helvetica, Arial, sans-serif;
 }
@@ -38,15 +47,6 @@ h1.hometext {
 .nav-list a:focus-visible {
   background-color: #3b4252;
   color: #88c0d0;
-}
-
-body {
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
-  background-color: #f7f9fb;
-  color: #2e3440;
-  line-height: 1.6;
-  margin: 0;
-  padding-bottom: 3rem;
 }
 
 h1, h2, h3 {
