@@ -9,9 +9,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzUCWdtRteqTaFJ4Hd_3Gbv92Xf3_bImU&libraries=maps" defer></script>
   </head>
-<body>
-  <p>Map goes here</p>
+ <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="quotes.html">Powerful Quotes</a></li>
+          <li><a href="map.html">My Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Here is the Map</h1>
+    <gmp-map
+    center="38.7946,-106.5348"
+    zoom="4"
+    map-id="DEMO_MAP_ID"
+    style="height: 400px"
+  >
+  </gmp-map>
   <div id="wrapper">
     <div id="canvas"></div>
   </div>
