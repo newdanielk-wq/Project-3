@@ -174,3 +174,18 @@ audio {
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
   }
 }
+
+#wrapper {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+#canvas {
+  width: 100%;
+  height: 480px;
+  border-radius: 8px;
+  border: 4px solid #6c0a8a;
+  box-shadow: 0 4px 14px rgba(108, 10, 138, 0.2);
+}
