@@ -104,12 +104,12 @@ audio {
   display: block;
   margin: 1rem auto;
   width: 100%;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 .card ul, 
 .card ol {
-  padding-left: 1.5rem;
+  padding-left: 1.25rem;
 }
 
 .card li {
