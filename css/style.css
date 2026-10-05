@@ -145,3 +145,32 @@ audio {
     max-width: 400px;
   }
 }
+
+@media (min-width: 900px) {
+  .content-container {
+    max-width: 850px;
+    margin: 2.5rem auto;
+  }
+
+  .navbar {
+    padding: 1rem 2.5rem;
+  }
+
+  .nav-list {
+    gap: 2rem;
+  }
+
+  .nav-list a {
+    font-size: 1.05rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  img {
+    margin: 1.5rem auto 2rem;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+  }
+}
