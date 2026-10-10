@@ -13,6 +13,15 @@
     <script src="jquery.bxslider.js"></script>
     <script src="map.js" defer></script>
     <link href="jquery.bxslider.css" rel="stylesheet" />
+    <script>
+    $(document).ready(function(){
+    $('.bxslider').bxSlider({
+    auto: true,
+    autoHover: true,
+    pause: 1700
+  });
+});
+    </script>
   </head>
   
   <body>
@@ -32,6 +41,16 @@
       <h2>Click any of the above navigation links to see cool pages!</h2>
       <h3>(They are awesome, I promise!)</h3>
       <p>This page will list some of my favorite hobbies, each with an accompanying image!</p>
+      <p>But first, check out these Pokemon!</p>
+      
+      <ul class="bxslider">
+        <li><img src="media/images/Chimchar.png" /></li>
+        <li><img src="media/images/Infernape.png" /></li>
+        <li><img src="media/images/Piplup.png" /></li>
+        <li><img src="media/images/Empoleon.png" /></li>
+        <li><img src="media/images/Turtwig.png" /></li>
+        <li><img src="media/images/Torterra.png" /></li>
+      </ul>
       
       <section class="card">
         <h2>Hobby One: Exercise</h2>
